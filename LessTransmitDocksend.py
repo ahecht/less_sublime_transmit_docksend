@@ -5,9 +5,8 @@ class LessTransmitDocksendCommand(sublime_plugin.TextCommand):
   def run(self, edit):
     my_file = self.view.file_name()
     is_less = re.search('\.less$',my_file)
-    
     if is_less:
-      file_to_upload = my_file.replace("less","css")
+      file_to_upload = re.sub(r'/less/(.*?)\.less$', r'/css/\1.css', my_file)
     else:
       file_to_upload = my_file
     
