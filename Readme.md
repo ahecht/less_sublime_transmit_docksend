@@ -6,7 +6,7 @@ A [Sublime Text](http://www.sublimetext.com/3) plugin for OS X that uploads the 
 
 Clone this repository into a "Less Transmit Docksend" folder in the ST3 Packages directory.
 
-  git clone git://github.com/ahecht/less_sublime_transmit_docksend.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Less Transmit\ Docksend
+  git clone git://github.com/ahecht/less_sublime_transmit_docksend.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Less\ Transmit\ Docksend
 
 ## Usage
 
