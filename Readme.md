@@ -1,4 +1,4 @@
-# Sublime Transmit DockSend with simple LESS-file awareness
+# LESS Sublime Transmit DockSend
 
 A [Sublime Text](http://www.sublimetext.com/3) plugin for OS X that uploads the current open file with [Transmit](http://www.panic.com/transmit/). If triggered on a LESS file, it will upload a CSS file at a parallel path instead.
 
