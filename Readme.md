@@ -19,7 +19,7 @@ If you're file is at /Users/johnnychimpo/my_site/less/styles.less, it will send 
 
 ## License
 
-  Copyright (c) 2014 Anthony Hecht <anthony@thestranger.com>
+  Copyright (c) 2014 Anthony Hecht
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
