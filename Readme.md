@@ -15,7 +15,29 @@ Use `command+shift+u` or invoke `Less Transmit DockSend` in the Command Pallete 
 If the file doesn't have a .less extension, it's sent to Transmit as is. If it does, it will send the .css file at the parallel path.
 
 ## Example
+
 If you're file is at /Users/johnnychimpo/my_site/less/styles.less, it will send /Users/johnnychimpo/my_site/css/styles.css to Transmit instead of the active file.
+
+## Settings
+
+There are a couple of settings you can make by creating a LessTransmitDocksend.sublime-settings file inside your installation. Here's an example file.
+
+```
+{
+    // set to true to treat LESS files like any other, i.e. send them to Transmit unaltered
+    "disabled":false,
+
+    // set to true to send both the LESS file and the CSS file to Transmit
+    "send_both":false,
+
+    // if you're CSS files aren't in /css directories parallel to your /less directories,
+    // you can create custom regexes for the original and translated file paths
+    // (you'll have to use double-escapes here for your backreferences and such)
+    "original_path":"/less/(.*?)\\.less$",
+    "upload_path":"/css/\\1.css"
+}
+```
+
 
 ## License
 
