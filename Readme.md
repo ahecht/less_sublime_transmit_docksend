@@ -41,7 +41,7 @@ There are a couple of settings you can make by creating a LessTransmitDocksend.s
 
 ## License
 
-  Copyright (c) 2014 Anthony Hecht <anthony@thestranger.com>
+  Copyright (c) 2014 Anthony Hecht
 
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
